@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "ausian";
+    src: url("../fonts/Ausian.otf");
+  }
+
+
+
+.main-container{
+    background: url("https://media-exp1.licdn.com/dms/image/C4D1BAQEtdma8mZe-rQ/company-background_10000/0/1569945294966?e=2159024400&v=beta&t=AYupnUE4nvh2tzD2GkJNzRmffMJf_DPA7cWhOvP3y-s") ;
+    height: 101vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    min-height: 35rem;
+    padding: 15rem 0;
+}
+
+.main{
+    margin-right: 40vw;
+    font-family: "ausian";
+}
+
+.main2{
+    font-family: "ausian";
+    text-align: center;
+    margin-right: 40vw;
+    padding-top: 3vh;
+}
