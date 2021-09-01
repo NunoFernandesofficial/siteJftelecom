@@ -42,7 +42,7 @@
     }
   }
 
-  @media screen and (max-width: 505px) {
+  @media screen and (max-width: 405px) {
     .main {
         margin-left: 15vw;
         font-size: 15px;

@@ -17,12 +17,12 @@
 
 
 .back-home{
-  background-color: rgb(197, 6, 6);
-  border-radius: 8px;
+  background-color: rgb(218, 6, 6);
+  border-radius: 30px;
     margin-left: 80vw;
     position: fixed;
     margin-top: 80vh;
-   padding: 5px 5px 5px 5px;
+   padding: 5px 20px 5px 20px;
    
 
 }

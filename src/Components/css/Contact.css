@@ -320,7 +320,7 @@ textarea.input1 + .shadow-input1 {
 
 @media (max-width: 576px) {
   .container-contact1 {
-    padding: 20px 15px 88px 15px;
+    padding: 60px 70px 88px 0px;
   }
 }
 
