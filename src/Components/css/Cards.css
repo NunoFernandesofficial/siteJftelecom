@@ -6,8 +6,10 @@
 
 .cards {
     padding: 4rem;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
   }
+
+
   
   h1 {
     text-align: center;
@@ -28,9 +30,11 @@
     position: relative;
     margin: 50px 0 45px;
   }
-  
+
+
   .cards__items {
     margin-bottom: 24px;
+    
   }
   
   .cards__item {
@@ -38,6 +42,11 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+  }
+
+  .cards__item:hover{
+    box-shadow: 1px 8px 20px rgb(0, 0, 0);
+    -webkit-transition:  box-shadow .2s ease-in;
   }
   
   .cards__item__link {
@@ -74,7 +83,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #0091ff;
     box-sizing: border-box;
   }
   

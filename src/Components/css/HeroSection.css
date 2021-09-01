@@ -6,6 +6,48 @@ img {
     z-index: -1;
   }
   
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+   
+  }
+  
+  
+  a:hover {
+    text-decoration: none;
+    color: #000000;
+    
+    
+  }
+
+.teste{
+  border-color: #000000;
+  border-radius: 60px;
+  font-size: 35px;
+  padding-left: 15px;
+  padding-bottom: 2px;
+  padding-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  box-shadow: 0 0 40px 40px #000000 inset, 0 0 0 0 #00ccff;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  
+}
+
+.teste:hover{
+  box-shadow: 0 0 10px 0 #f50000 inset, 0 0 10px 4px #f50000;
+  color: black;
+}
+
+
+
   .hero-container {
    background: url('https://media-exp1.licdn.com/dms/image/C4D1BAQH_6yexIo_wLQ/company-background_10000/0/1603154243544?e=2159024400&v=beta&t=cnfpArtFoBxeG3yKpZ4t5o0WmPDtljhkAJbFCQCU7VE') center center/cover no-repeat;
     height: 100vh;
@@ -14,24 +56,27 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 100px 50px rgba(0, 0, 0, 0.8);
     object-fit: contain;
+    
   }
   
   .hero-container > h1 {
-    background: -webkit-linear-gradient(rgb(253, 253, 253), rgb(90, 89, 89));
+    background: -webkit-linear-gradient(rgb(70, 5, 5),rgba(255, 0, 0, 0.829));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 100px;
-    margin-top: -100px;
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   }
   
-  .hero-container > p {
+  .hero-container > h2 {
     margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
+     
   }
   
   .hero-btns {
@@ -70,5 +115,15 @@ img {
   
     .btn {
       width: 100%;
+    }
+  }
+  @media screen and (max-width: 418px) {
+    .hero-container {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 393px) {
+    .hero-container {
+      font-size: 12px;
     }
   }

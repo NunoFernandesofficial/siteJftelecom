@@ -15,3 +15,16 @@
   font-size: 3rem;
 }
 
+
+.back-home{
+  background-color: rgb(197, 6, 6);
+  border-radius: 8px;
+    margin-left: 80vw;
+    position: fixed;
+    margin-top: 80vh;
+   padding: 5px 5px 5px 5px;
+   
+
+}
+
+

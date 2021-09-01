@@ -1,12 +1,29 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import '../css/Cards.css';
 import CardItem from './Carditem';
-
+import '../css/About.css'
+import Home from '../pages/home';
 function Cards() {
+
+
+
+
   return (
     <div className='cards'>
       <h1 className="serviços">Serviços</h1>
       <div className='cards__container'>
+      <div className="back-home">
+                    <a>
+                <Link to="/">Voltar</Link>
+                 </a>
+                </div>
+      
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem 
@@ -28,6 +45,13 @@ function Cards() {
               src='https://pactech-inc.com/wp-content/uploads/2018/11/CAT5e-Cable-–-Sentinel®Plug-Snagless-with-Clear-Boot-Blue.jpg'
               text='Fazemos a passagem e a colagem dos cabos ethernet pela sua casa'
               label='Cabo Ethernet'
+              path='/services'
+            />
+            <CardItem
+            className="card"
+              src='https://luxcleaning.ie/wp-content/uploads/2020/02/deep-house-cleaning_lux.jpg'
+              text='Fazemos limpezar de interiores'
+              label='Limpezas'
               path='/services'
             />
           </ul>
@@ -53,10 +77,18 @@ function Cards() {
               label='Suportes de Tv'
               path='/services'
             />
+            <CardItem
+            className="card"
+              src='https://i1.wp.com/gutterup.org/wp-content/uploads/2017/12/Residential-Roof-Cleaning-West-Palm-Beach.jpg?fit=1920%2C1080'
+              text='Fazemos Limpezas exteriores'
+              label='Limpezas'
+              path='/services'
+            />
              
           </ul>
         </div>
       </div>
+     
     </div>
   );
 }

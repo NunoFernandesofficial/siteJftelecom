@@ -28,7 +28,8 @@ function Navbar() {
 
     return (
         <>
-        <nav className='navbar'>
+        <nav className='navbar' id="top">
+          
           <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               JfTelecom

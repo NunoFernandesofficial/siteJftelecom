@@ -7,7 +7,7 @@
 
 .main-container{
     background: url("https://media-exp1.licdn.com/dms/image/C4D1BAQEtdma8mZe-rQ/company-background_10000/0/1569945294966?e=2159024400&v=beta&t=AYupnUE4nvh2tzD2GkJNzRmffMJf_DPA7cWhOvP3y-s") ;
-    height: 101vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
     padding: 15rem 0;
 }
 
-.main{
+.main1{
     margin-right: 40vw;
     font-family: "ausian";
 }
@@ -33,5 +33,23 @@
     font-family: "ausian";
     text-align: center;
     margin-right: 40vw;
-    padding-top: 3vh;
+    margin-top: 10px;    
 }
+
+@media screen and (max-width: 756px) {
+    .main {
+        margin-left: 10vw;
+    }
+  }
+
+  @media screen and (max-width: 505px) {
+    .main {
+        margin-left: 15vw;
+        font-size: 15px;
+        margin-right: -20vw;
+    }
+
+    .main1{
+        font-size: 40px;
+    }
+  }
