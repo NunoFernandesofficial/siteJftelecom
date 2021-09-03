@@ -1,6 +1,6 @@
 
 
-.Footer-main{
+.footer-main{
     background-color:rgb(0, 0, 0);
     height: 40vh;
 }
@@ -71,26 +71,64 @@
   }
   
   @media (max-width: 768px) {
-    .card > p{
-        margin-top: 50px;
-         font-size: 14px;
+    .footer-main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+     
      }
-     .card > h1{
-         font-size: 15px;
+     .card{
+      width: 60%;
      }
+     
+     
+      .card > p{
+          margin-top: 10px;
+          padding-bottom: 20px;
+          font-size: 15px;
+           text-align: center;
+  
+       }
+       .card > h1{
+           font-size: 20px;
+       }
+       .creditos{
+          margin-left: 1vw;
+          padding-top: 5vh;
+       }
+  
+    }
    
-  }
   
   @media (max-width: 576px) {
+   .footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+   
+   }
+   .card{
+    width: 60%;
+   }
+   
+   
     .card > p{
-        margin-top: 50px;
-         font-size: 10px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        font-size: 15px;
+         text-align: center;
+
      }
      .card > h1{
-         font-size: 15px;
+         font-size: 20px;
      }
      .creditos{
-        margin-left: 30vw;
+        margin-left: 1vw;
+        padding-top: 5vh;
      }
 
   }

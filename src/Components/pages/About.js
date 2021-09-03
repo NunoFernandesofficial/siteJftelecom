@@ -7,6 +7,7 @@ import '../css/About.css'
 
 function About() {
     return (
+        <div className="flex-container">
         <div className="main-container" id="about">
             <div className="main">
             <h1 className="main1">Quem Somos?</h1>
@@ -15,11 +16,10 @@ function About() {
                 Somos uma empresa 100% portuguesa composta por dois trabalhadores com imenso gosto pelo que fazem.
                 Para mais informações vejam oresto do nosso website ou contacte-nos que teremos todo o gosto em falar consigo!</h2>
                 </div>
-                <div className="back-home">
-                    <a>
-                <Link to="/">Voltar</Link>
-                 </a>
+                <div className="about-home">
+                <Link className="aboutHome"to="/">Voltar</Link>
                 </div>
+        </div>
         </div>
     )
 }

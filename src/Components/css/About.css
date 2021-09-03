@@ -3,8 +3,10 @@
     src: url("../fonts/Ausian.otf");
   }
 
+.flex-container{
+    display: flex;
 
-
+}
 .main-container{
     background: url("https://media-exp1.licdn.com/dms/image/C4D1BAQEtdma8mZe-rQ/company-background_10000/0/1569945294966?e=2159024400&v=beta&t=AYupnUE4nvh2tzD2GkJNzRmffMJf_DPA7cWhOvP3y-s") ;
     height: 100vh;
@@ -22,34 +24,68 @@
     position: relative;
     min-height: 35rem;
     padding: 15rem 0;
+    
 }
+
 
 .main1{
     margin-right: 40vw;
-    font-family: "ausian";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .main2{
-    font-family: "ausian";
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
     margin-right: 40vw;
     margin-top: 10px;    
 }
+.about-home{
+    background-color: rgb(218, 6, 6);
+    border-radius: 30px;
+      margin-left: 80vw;
+      position: fixed;
+      margin-top: 80vh;
+     padding: 5px 20px 5px 20px;
+}
 
-@media screen and (max-width: 756px) {
+
+@media screen and (max-width: 768px) {
     .main {
         margin-left: 10vw;
     }
+
+    .about-home{
+         margin-right: 110vw;
+        margin-top: 72vh;
+    }
   }
 
-  @media screen and (max-width: 405px) {
+  @media screen and (max-width: 505px) {
+    .main-container{
+        height: 100vh;
+
+    }
+
     .main {
-        margin-left: 15vw;
-        font-size: 15px;
-        margin-right: -20vw;
+        margin-left: 10vw;
+        font-size: 13px;
     }
 
     .main1{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    
+
+    .about-home{
+        margin-right: 110%;
+        margin-top: 90vh;
+
+       
+    }
+
+    .aboutHome{
+        font-size: 20px;
     }
   }

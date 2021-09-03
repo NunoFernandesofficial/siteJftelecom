@@ -36,7 +36,15 @@
     margin-bottom: 24px;
     
   }
-  
+  .cards-home{
+    background-color: rgb(221, 27, 27);
+    border-radius: 30px;
+      margin-left: 80vw;
+      position: fixed;
+      margin-top: 80vh;
+     padding: 5px 20px 5px 20px;
+}
+
   .cards__item {
     display: flex;
     flex: 1;
@@ -127,12 +135,25 @@
   @media only screen and (min-width: 1024px) {
     .cards__items {
       display: flex;
+
     }
+
+    .cards-home{
+      margin-right: 80vw;
+    }
+
   }
   
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1023px) {
     .cards__item {
       margin-bottom: 2rem;
     }
+
+    .cards-home{
+      margin-right: 80vw;
+      margin-top: 75vh;
+      position: fixed;
+    }
+
   }
 

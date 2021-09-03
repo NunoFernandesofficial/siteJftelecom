@@ -15,8 +15,8 @@ function HeroSection() {
     
     <div className='hero-container'>
       
-      <h1>JFTELECOM</h1>
-      <h2>Um Serviço de qualidade e acessivel</h2>
+      <h1 className="title">JFTELECOM</h1>
+      <h2 className="subtitle">Um Serviço de qualidade e acessivel</h2>
       
       <div className='hero-btns'>
       

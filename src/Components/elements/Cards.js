@@ -18,11 +18,9 @@ function Cards() {
     <div className='cards'>
       <h1 className="serviços">Serviços</h1>
       <div className='cards__container'>
-      <div className="back-home">
-                    <a>
-                <Link to="/">Voltar</Link>
-                 </a>
-                </div>
+                    
+             
+               
       
         <div className='cards__wrapper'>
           <ul className='cards__items'>

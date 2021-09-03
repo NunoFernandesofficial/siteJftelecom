@@ -3,8 +3,8 @@ import '../css/Footer.css'
 
 function Footer() {
     return (
-        <div className="Footer-main">
-            <div class="card">
+        <div className="footer-main">
+            <div className="card">
                 <h1>Zona de trabalho</h1>
                 <hr className="linha"></hr>
                 <p>Lisboa</p>
@@ -12,14 +12,14 @@ function Footer() {
 
 
             
-            <div class="card">
+            <div className="card">
                 <h1>Email</h1>
                 <hr className="linha"></hr>
-                <p>JorgeFernandes11@gmail.com</p>
+                <p className="email">JorgeFernandes11@gmail.com</p>
             </div>
 
 
-            <div class="card">
+            <div className="card">
                 <h1>Telemóvel</h1>
                 <hr className="linha"></hr>
                 <p>936071788</p>

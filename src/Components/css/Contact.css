@@ -113,6 +113,7 @@ iframe {
   padding: 90px 1500px 88px 148px;
 }
 
+
 /*------------------------------------------------------------------
 [  ]*/
 .contact1-pic {
@@ -316,11 +317,23 @@ textarea.input1 + .shadow-input1 {
   .contact1-form {
     width: 100%;
   }
+  .back-home{
+    margin-top: 85vh;
+    margin-right: 66vw;
+  }
+
+  .backHome{
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 576px) {
   .container-contact1 {
     padding: 60px 70px 88px 0px;
+  }
+  .back-home{
+    margin-top: 85vh;
+    margin-right: 79%;
   }
 }
 
