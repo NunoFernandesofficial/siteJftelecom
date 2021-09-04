@@ -34,7 +34,12 @@ function Navbar() {
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               JfTelecom
             </Link>
+            <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
+            </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+              <li className="nav-item"><div className="texto-menu">MENU</div></li>
+             
               <li className='nav-item'>
                 <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
                   Sobre mim
@@ -60,6 +65,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
+
         </nav>
       </>
     )

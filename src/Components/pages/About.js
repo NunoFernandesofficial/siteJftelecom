@@ -16,9 +16,7 @@ function About() {
                 Somos uma empresa 100% portuguesa composta por dois trabalhadores com imenso gosto pelo que fazem.
                 Para mais informações vejam oresto do nosso website ou contacte-nos que teremos todo o gosto em falar consigo!</h2>
                 </div>
-                <div className="about-home">
-                <Link className="aboutHome"to="/">Voltar</Link>
-                </div>
+               
         </div>
         </div>
     )

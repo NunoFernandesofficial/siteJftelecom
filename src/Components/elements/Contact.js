@@ -47,11 +47,7 @@ class Contact extends Component {
 		
         <div className="contact-formm">
 		     	<div className="contact1">	
-				 <div className="back-home">
-                    <a >
-                <Link to="/">Voltar</Link>
-                 </a>
-                </div>
+				
 				<div className="container-contact1">
 			<div className="contact1-pic js-tilt" data-tilt>
 

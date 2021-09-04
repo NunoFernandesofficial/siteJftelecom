@@ -30,6 +30,8 @@ function Cards() {
               text='Fazemos a passagem e a colagem dos cabos coaxiais pela sua casa'
               label='Cabo Quaxial'
               path='/services'
+              href="https://www.youtube.com/"
+              target="_blank"
             />
             <CardItem
             className="card"
