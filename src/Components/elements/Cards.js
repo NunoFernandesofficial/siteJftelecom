@@ -49,7 +49,7 @@ function Cards() {
             />
             <CardItem
             className="card"
-              src='https://luxcleaning.ie/wp-content/uploads/2020/02/deep-house-cleaning_lux.jpg'
+              src='https://media-manager.noticiasaominuto.com/1920/naom_5ff30c7ae7ba7.jpg'
               text='Fazemos limpezar de interiores'
               label='Limpezas'
               path='/services'
@@ -79,7 +79,7 @@ function Cards() {
             />
             <CardItem
             className="card"
-              src='https://i1.wp.com/gutterup.org/wp-content/uploads/2017/12/Residential-Roof-Cleaning-West-Palm-Beach.jpg?fit=1920%2C1080'
+              src='https://res.cloudinary.com/arealimpa-com/image/upload/q_auto/whzfjkculq8frgoddiv3.jpg'
               text='Fazemos Limpezas exteriores'
               label='Limpezas'
               path='/services'
